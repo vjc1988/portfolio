@@ -36,7 +36,13 @@ export default function App() {
             <div class="col-sm-6">
               <h2 class="index-page-titles">Travel App</h2>
               <p class="index-page-p"></p>
-              <a href="#" class="home-links" title="launch travel app">
+              <a
+                href="https://peru-project.netlify.app/"
+                class="home-links"
+                title="launch travel app"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Launch Travel App
               </a>
             </div>
@@ -45,7 +51,13 @@ export default function App() {
             <div class="col-sm-6">
               <h2 class="index-page-titles">Weather App</h2>
               <p class="index-page-p"></p>
-              <a href="#" class="home-links" title="launch weather app">
+              <a
+                href="https://reactwapphomework.netlify.app/"
+                class="home-links"
+                title="launch weather app"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Launch Weather App
               </a>
             </div>
@@ -68,7 +80,13 @@ export default function App() {
             <div class="col-sm-6">
               <h2 class="index-page-titles">Dictionary App</h2>
               <p class="index-page-p"></p>
-              <a href="#" class="home-links" title="launch dictionary app">
+              <a
+                href="https://dictionary-app-vc.netlify.app/"
+                class="home-links"
+                title="launch dictionary app"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Launch Dictionary App
               </a>
             </div>
