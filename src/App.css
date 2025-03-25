@@ -1,15 +1,52 @@
 h1,
 h2 {
   text-align: center;
+  color: #a070a1;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+.featured-projects {
+  margin-bottom: 50px;
+}
+
+p {
+  padding: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
 }
 
 a {
   text-align: center;
+  color: #a070a1;
 }
 
 footer {
   text-align: center;
 }
 .Container {
-  background-color: aquamarine;
+  background-color: #f8e7e7;
+}
+
+.index-page-titles {
+  text-align: start;
+}
+
+.home-links {
+  color: #a070a1;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
 }

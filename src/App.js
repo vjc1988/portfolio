@@ -10,10 +10,7 @@ export default function App() {
       <header className="Container">
         <h2>Hello, I'm</h2>
         <h1>Victoria Coombs</h1>
-        <h2>
-          Junior Front-End Software Developer based in Lancashire, United
-          Kingdom
-        </h2>
+        <h2>Junior Front-End Developer based in Lancashire, United Kingdom</h2>
         <p>
           I like to craft solid and scalable frontend products with great user
           experiences
@@ -23,22 +20,25 @@ export default function App() {
         </a>
       </header>
       <div>
-        <h2>Featured Projects</h2>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6">
+        <h2 className="featured-projects">Featured Projects</h2>
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-6">
               <img
                 src={Travelapp}
                 class="img-fluid rounded"
                 alt="travel project"
               />
             </div>
-            <div class="col-sm-6">
-              <h2 class="index-page-titles">Travel App</h2>
-              <p class="index-page-p"></p>
+            <div className="col-sm-6">
+              <h2 className="index-page-titles">Travel App</h2>
+              <p className="index-page-p">
+                {" "}
+                Write something about the application
+              </p>
               <a
                 href="https://peru-project.netlify.app/"
-                class="home-links"
+                className="home-links"
                 title="launch travel app"
                 target="_blank"
                 rel="noreferrer"
@@ -47,13 +47,13 @@ export default function App() {
               </a>
             </div>
           </div>
-          <div class="row mt-5">
-            <div class="col-sm-6">
-              <h2 class="index-page-titles">Weather App</h2>
-              <p class="index-page-p"></p>
+          <div className="row mt-5">
+            <div className="col-sm-6">
+              <h2 className="index-page-titles">Weather App</h2>
+              <p className="index-page-p"></p>
               <a
                 href="https://reactwapphomework.netlify.app/"
-                class="home-links"
+                className="home-links"
                 title="launch weather app"
                 target="_blank"
                 rel="noreferrer"
@@ -64,7 +64,7 @@ export default function App() {
             <div class="col-sm-6">
               <img
                 src={Weatherapp}
-                class="img-fluid rounded"
+                className="img-fluid rounded"
                 alt="weather project"
               />
             </div>
@@ -73,16 +73,16 @@ export default function App() {
             <div class="col-sm-6">
               <img
                 src={Dictionaryapp}
-                class="img-fluid rounded"
+                className="img-fluid rounded"
                 alt="dictionary project"
               />
             </div>
-            <div class="col-sm-6">
-              <h2 class="index-page-titles">Dictionary App</h2>
-              <p class="index-page-p"></p>
+            <div className="col-sm-6">
+              <h2 className="index-page-titles">Dictionary App</h2>
+              <p className="index-page-p"></p>
               <a
                 href="https://dictionary-app-vc.netlify.app/"
-                class="home-links"
+                className="home-links"
                 title="launch dictionary app"
                 target="_blank"
                 rel="noreferrer"
@@ -94,6 +94,7 @@ export default function App() {
         </div>
       </div>
       <div>
+        <br />
         <footer>
           This website was coded by Victoria Coombs and is{" "}
           <a
