@@ -64,8 +64,12 @@ footer {
 }
 
 .home-links {
+  border: 1px solid #a070a1;
+  border-radius: 4px;
   color: #a070a1;
+  font-size: 18px;
+  line-height: 27px;
   text-decoration: none;
-  display: flex;
-  justify-content: center;
+  padding: 15px 30px;
+  transition: ease-in-out 0.3s;
 }

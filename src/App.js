@@ -38,7 +38,7 @@ export default function App() {
               </p>
               <a
                 href="https://peru-project.netlify.app/"
-                className="home-links"
+                className="btn home-links"
                 title="launch travel app"
                 target="_blank"
                 rel="noreferrer"
@@ -53,7 +53,7 @@ export default function App() {
               <p className="index-page-p"></p>
               <a
                 href="https://reactwapphomework.netlify.app/"
-                className="home-links"
+                className=" btn home-links"
                 title="launch weather app"
                 target="_blank"
                 rel="noreferrer"
@@ -82,7 +82,7 @@ export default function App() {
               <p className="index-page-p"></p>
               <a
                 href="https://dictionary-app-vc.netlify.app/"
-                className="home-links"
+                className=" btn home-links"
                 title="launch dictionary app"
                 target="_blank"
                 rel="noreferrer"
