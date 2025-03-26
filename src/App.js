@@ -8,14 +8,14 @@ export default function App() {
   return (
     <div>
       <header className="Container">
-        <h2>Hello, I'm</h2>
+        <h2>👋🏼 Hello, I'm</h2>
         <h1>Victoria Coombs</h1>
         <h2>Junior Front-End Developer based in Lancashire, United Kingdom</h2>
         <p>
           I like to craft solid and scalable frontend products with great user
           experiences
         </p>
-        <a href="/" title="contact me">
+        <a href="/" title="contact me" className="btn contact-btn">
           Contact Me
         </a>
       </header>
