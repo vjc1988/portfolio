@@ -17,6 +17,12 @@ h3 {
   font-size: 24px;
   opacity: 0.7;
 }
+
+.developer-statement {
+  text-align: center;
+  padding: 40px;
+}
+
 .featured-projects {
   margin-bottom: 50px;
 }
@@ -25,12 +31,17 @@ p {
   padding: 20px;
   font-size: 18px;
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
+  text-align: justify;
 }
 
 a {
   text-align: center;
   color: #a070a1;
+}
+
+p {
+  padding: 0;
 }
 
 footer {
@@ -61,9 +72,11 @@ footer {
 
 .index-page-titles {
   text-align: start;
+  margin-bottom: 20px;
 }
 
 .home-links {
+  margin-top: 20px;
   border: 1px solid #a070a1;
   border-radius: 4px;
   color: #a070a1;
@@ -72,4 +85,25 @@ footer {
   text-decoration: none;
   padding: 15px 30px;
   transition: ease-in-out 0.3s;
+}
+
+.home-email {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.social-links {
+  color: #a070a1;
+  font-size: 50px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+footer {
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
