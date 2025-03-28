@@ -10,6 +10,38 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 export default function App() {
   return (
     <div>
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="homepage">
+          <img
+            src="./images/"
+            alt="victoria-coombs-1"
+            class="logo rounded-circle"
+          />
+        </a>
+        <ul>
+          <li class="active text-muted">
+            <a href="/" title="homepage">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="/about-us.html" title="about us" class="text-muted">
+              About
+            </a>
+          </li>
+          <li>
+            <a href="/work.html" title="our travels" class="text-muted">
+              Projects
+            </a>
+          </li>
+          <li>
+            <a href="/contact.html" title="contact us" class="text-muted">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+
       <header className="Container">
         <h2>👋🏼 Hello, I'm</h2>
         <h1>Victoria Coombs</h1>
