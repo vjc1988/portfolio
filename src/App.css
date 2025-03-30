@@ -36,7 +36,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: black;
+  color: #a070a1;
   transition: all 100ms ease-in-out;
 }
 
@@ -71,6 +71,10 @@ p {
   text-align: justify;
 }
 
+.project-image {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
 a {
   text-align: center;
   color: #a070a1;
@@ -83,6 +87,7 @@ p {
 footer {
   text-align: center;
 }
+
 .Container {
   padding: 90px;
   background-color: #f8e7e7;
@@ -109,6 +114,17 @@ footer {
 .index-page-titles {
   text-align: start;
   margin-bottom: 20px;
+}
+
+.contact-box-index {
+  background-color: #a070a1;
+  padding: 30px 120px;
+  margin: 60px;
+  border-radius: 10px;
+}
+
+.contact-box-index {
+  margin: 0;
 }
 
 .home-links {

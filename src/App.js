@@ -20,23 +20,35 @@ export default function App() {
           />
         </a>
         <ul>
-          <li className="active text-muted">
+          <li className="active text-muted nav-titles">
             <a href="/" title="homepage">
               Home
             </a>
           </li>
           <li>
-            <a href="/about-us.html" title="about us" className="text-muted">
+            <a
+              href="/about-us.html"
+              title="about us"
+              className="text-muted nav-titles"
+            >
               About
             </a>
           </li>
           <li>
-            <a href="/work.html" title="our travels" className="text-muted">
+            <a
+              href="/work.html"
+              title="our travels"
+              className="text-muted nav-titles"
+            >
               Projects
             </a>
           </li>
           <li>
-            <a href="/contact.html" title="contact us" className="text-muted">
+            <a
+              href="/contact.html"
+              title="contact us"
+              className="text-muted nav-titles"
+            >
               Contact
             </a>
           </li>
@@ -62,7 +74,7 @@ export default function App() {
             <div className="col-sm-6">
               <img
                 src={Travelapp}
-                class="img-fluid rounded"
+                className="img-fluid rounded project-image"
                 alt="travel project"
               />
             </div>
@@ -109,7 +121,7 @@ export default function App() {
             <div class="col-sm-6">
               <img
                 src={Weatherapp}
-                className="img-fluid rounded"
+                className="img-fluid rounded project-image"
                 alt="weather project"
               />
             </div>
@@ -118,7 +130,7 @@ export default function App() {
             <div class="col-sm-6">
               <img
                 src={Dictionaryapp}
-                className="img-fluid rounded"
+                className="img-fluid rounded project-image"
                 alt="dictionary project"
               />
             </div>
@@ -144,6 +156,21 @@ export default function App() {
         </div>
       </div>
       <div>
+        <div className="contact-box-index d-flex justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h3>Work Enquiry</h3>
+            <p className="text-muted">Let's work together!</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              title="contact us"
+              className="btn btn-branding mt-3"
+            >
+              Contact Me
+            </a>
+          </div>
+        </div>
         <br />
         <a href="mailto:victoriajaynecadd@yahoo.com" className="home-email">
           victoriajaynecadd@yahoo.com
