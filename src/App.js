@@ -159,12 +159,12 @@ export default function App() {
         <div className="contact-box-index d-flex justify-content-between mb-5 d-none d-md-flex">
           <div>
             <h3>Work Enquiry</h3>
-            <p className="text-muted">Let's work together!</p>
+            <p className="work-together-title">Let's work together!</p>
           </div>
           <div>
             <a
               href="/contact.html"
-              title="contact us"
+              title="contact me"
               className="btn btn-branding mt-3"
             >
               Contact Me
