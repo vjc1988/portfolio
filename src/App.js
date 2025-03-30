@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Dictionaryapp from "./Images/Dictionaryapp.png";
 import Travelapp from "./Images/Travelapp.png";
+import VictoriaCoombs1 from "./Images/victoria-coombs-1.jpg";
 import Weatherapp from "./Images/Weatherapp.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -10,32 +11,32 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 export default function App() {
   return (
     <div>
-      <nav class="d-flex justify-content-between">
+      <nav className="d-flex justify-content-between">
         <a href="/" title="homepage">
           <img
-            src="./images/"
+            src={VictoriaCoombs1}
             alt="victoria-coombs-1"
-            class="logo rounded-circle"
+            className="logo rounded-circle navImage"
           />
         </a>
         <ul>
-          <li class="active text-muted">
+          <li className="active text-muted">
             <a href="/" title="homepage">
               Home
             </a>
           </li>
           <li>
-            <a href="/about-us.html" title="about us" class="text-muted">
+            <a href="/about-us.html" title="about us" className="text-muted">
               About
             </a>
           </li>
           <li>
-            <a href="/work.html" title="our travels" class="text-muted">
+            <a href="/work.html" title="our travels" className="text-muted">
               Projects
             </a>
           </li>
           <li>
-            <a href="/contact.html" title="contact us" class="text-muted">
+            <a href="/contact.html" title="contact us" className="text-muted">
               Contact
             </a>
           </li>
@@ -43,7 +44,7 @@ export default function App() {
       </nav>
 
       <header className="Container">
-        <h2>👋🏼 Hello, I'm</h2>
+        <h2 className="title">👋🏼 Hello, I'm</h2>
         <h1>Victoria Coombs</h1>
         <h2>Junior Front-End Developer based in Lancashire, United Kingdom</h2>
         <p className="developer-statement">
