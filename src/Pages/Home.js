@@ -1,5 +1,6 @@
 import React from "react";
 import "../Home.css";
+import { Link } from "react-router-dom";
 import Dictionaryapp from "../Images/Dictionaryapp.png";
 import Travelapp from "../Images/Travelapp.png";
 import Weatherapp from "../Images/Weatherapp.png";
@@ -18,9 +19,9 @@ export default function Home() {
           A passionate front-end developer dedicated to creating seamless and
           interactive web experiences
         </p>
-        <a href="/" title="contact me" className="btn contact-btn">
+        <Link to="./Pages/Contact" className="btn contact-btn">
           Contact Me
-        </a>
+        </Link>
       </header>
       <div>
         <h2 className="featured-projects">Featured Projects</h2>
@@ -117,13 +118,9 @@ export default function Home() {
             <p className="work-together-title">Let's work together!</p>
           </div>
           <div>
-            <a
-              href="/contact.html"
-              title="contact me"
-              className="btn btn-branding mt-3"
-            >
+            <Link to="./Pages/Contact" className="btn btn-branding mt-3">
               Contact Me
-            </a>
+            </Link>
           </div>
         </div>
         <br />
