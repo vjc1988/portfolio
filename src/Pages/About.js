@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function About() {
   return (
@@ -9,7 +10,7 @@ export default function About() {
             <div class="content">
               <h1>Hi! I am Victoria Coombs</h1>
               <h2 class="mt-5 mb-4">
-                A front-en developer from Lancashire, United Kingdom
+                A front-end developer from Lancashire, United Kingdom
               </h2>
               <p>
                 I am currently making an exciting career transition from my role
@@ -24,13 +25,9 @@ export default function About() {
                 growth, confident that my unique perspective and dedication will
                 allow me to thrive in my new career path.
               </p>
-              <a
-                href="/work.html"
-                title="our travels"
-                class="btn btn-branding mt-5"
-              >
-                See our travels
-              </a>
+              <Link to="./Pages/Projects" class="btn btn-branding mt-5">
+                See my featured projects
+              </Link>
             </div>
           </div>
           <div class="col-lg-6">
