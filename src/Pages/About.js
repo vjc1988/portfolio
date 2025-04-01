@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 export default function About() {
   return (
     <div>
-      <div class="content-container container">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="content">
+      <div className="content-container container">
+        <div className="row">
+          <div className="col-lg-6">
+            <div className="content">
               <h1>Hi! I'm Victoria Coombs</h1>
-              <h2 class="mt-5 mb-4">
+              <h2 className="mt-5 mb-4">
                 A front-end developer from Lancashire, United Kingdom
               </h2>
               <p>
@@ -30,8 +30,8 @@ export default function About() {
               </Link>
             </div>
           </div>
-          <div class="col-lg-6">
-            <img src="" class="img-fluid mt-5 about-us-image" alt="" />
+          <div className="col-lg-6">
+            <img src="" className="img-fluid mt-5 about-us-image" alt="" />
           </div>
         </div>
       </div>

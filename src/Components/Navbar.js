@@ -21,17 +21,17 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link to="./About" className="text-muted nav-titles">
+            <Link to="/About" className="text-muted nav-titles">
               About
             </Link>
           </li>
           <li>
-            <Link to="./Projects" className="text-muted nav-titles">
+            <Link to="/Projects" className="text-muted nav-titles">
               Projects
             </Link>
           </li>
           <li>
-            <Link to="./Contact" className="text-muted nav-titles">
+            <Link to="/Contact" className="text-muted nav-titles">
               Contact
             </Link>
           </li>

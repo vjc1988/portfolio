@@ -74,7 +74,7 @@ export default function Home() {
                 Launch Weather App
               </a>
             </div>
-            <div class="col-sm-6">
+            <div className="col-sm-6">
               <img
                 src={Weatherapp}
                 className="img-fluid rounded project-image"
@@ -82,8 +82,8 @@ export default function Home() {
               />
             </div>
           </div>
-          <div class="row mt-5">
-            <div class="col-sm-6">
+          <div className="row mt-5">
+            <div className="col-sm-6">
               <img
                 src={Dictionaryapp}
                 className="img-fluid rounded project-image"
