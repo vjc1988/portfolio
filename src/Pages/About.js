@@ -8,7 +8,7 @@ export default function About() {
         <div class="row">
           <div class="col-lg-6">
             <div class="content">
-              <h1>Hi! I am Victoria Coombs</h1>
+              <h1>Hi! I'm Victoria Coombs</h1>
               <h2 class="mt-5 mb-4">
                 A front-end developer from Lancashire, United Kingdom
               </h2>
