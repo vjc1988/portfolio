@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -6,10 +8,21 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 export default function Footer() {
   return (
     <div>
+      <div className="contact-box-index d-flex justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h3>Work Enquiry</h3>
+          <p className="work-together-title">Let's work together!</p>
+        </div>
+        <div>
+          <Link to="/Contact" className="btn btn-branding mt-3">
+            Contact Me
+          </Link>
+        </div>
+      </div>
       <a href="mailto:victoriajaynecadd@yahoo.com" className="home-email">
         victoriajaynecadd@yahoo.com
       </a>
-      <div className="d-flex justify-content-center group-social-links">
+      <div className="d-flex justify-content-center">
         <a href="https://github.com/vjc1988" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faGithub} className="social-links" />
         </a>
@@ -31,17 +44,6 @@ export default function Footer() {
           open-sourced
         </a>
       </footer>
-      <div className="contact-box-index d-flex justify-content-between mb-5 d-none d-md-flex">
-        <div>
-          <h3>Work Enquiry</h3>
-          <p className="work-together-title">Let's work together!</p>
-        </div>
-        <div>
-          <Link to="/Contact" className="btn btn-branding mt-3">
-            Contact Me
-          </Link>
-        </div>
-      </div>
     </div>
   );
 }

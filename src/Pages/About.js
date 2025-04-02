@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./About.css";
 import VictoriaCoombs1 from "../Images/victoria-coombs-1.jpg";
+import Footer from "../Components/Footer";
 
 export default function About() {
   return (
@@ -39,6 +40,7 @@ export default function About() {
               alt="about-me-image"
             />
           </div>
+          <Footer />
         </div>
       </div>
     </div>

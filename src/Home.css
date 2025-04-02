@@ -80,13 +80,6 @@ footer {
   margin-bottom: 20px;
 }
 
-.contact-box-index {
-  background-color: #a070a1;
-  padding: 30px 120px;
-  margin: 60px;
-  border-radius: 10px;
-}
-
 .btn-branding {
   background-color: azure;
   border-radius: 4px;
@@ -94,11 +87,6 @@ footer {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
-}
-
-.work-together-title {
-  color: azure;
-  font-size: 25px;
 }
 
 .home-links {
@@ -111,25 +99,4 @@ footer {
   text-decoration: none;
   padding: 15px 30px;
   transition: ease-in-out 0.3s;
-}
-
-.home-email {
-  display: block;
-  margin: 0 auto;
-  margin-top: 10px;
-  font-size: 24px;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.social-links {
-  color: #a070a1;
-  font-size: 50px;
-  padding: 20px;
-  margin-top: 30px;
-}
-
-footer {
-  margin-top: 50px;
-  margin-bottom: 30px;
 }
