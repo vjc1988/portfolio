@@ -1,4 +1,34 @@
 .content-container h1 {
   font-size: 64px;
   line-height: 80px;
+  margin-top: 50px;
+}
+
+.about-me-title {
+  font-size: 30px;
+}
+
+.about-me-image {
+  padding: 50px;
+}
+
+.about-me-paragraph {
+  font-size: 17px;
+}
+
+.btn-branding {
+  background-color: azure;
+  border-radius: 4px;
+  color: #a070a1;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  margin-bottom: 70px;
+}
+
+.contact-box-index {
+  background-color: #a070a1;
+  padding: 30px 120px;
+  margin: 60px;
+  border-radius: 10px;
 }
