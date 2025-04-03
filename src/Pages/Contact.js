@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import "./Contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -8,12 +8,12 @@ import Footer from "../Components/Footer";
 export default function Contact() {
   return (
     <div>
-      <div class="content-container container">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="content">
-              <h1>Let's get in touch!</h1>
-              <h3>
+      <div className="content-container container">
+        <div className="row">
+          <div className="col-lg-6">
+            <div className="content">
+              <h1 className="contact-title">Let's get in touch!</h1>
+              <h3 className="contact-me-identifiers">
                 Email <FontAwesomeIcon icon={faEnvelope} />
               </h3>
               <p>
@@ -21,11 +21,16 @@ export default function Contact() {
                   victoriajaynecadd@yahoo.com
                 </a>
               </p>
-              <h3>
+              <h3 className="contact-me-identifiers">
                 Linkedin <FontAwesomeIcon icon={faLinkedin} />
               </h3>
               <p>
-                <a href="" target="_blank" title="my-linkedin">
+                <a
+                  href="https://www.linkedin.com/in/victoria-coombs/"
+                  target="_blank"
+                  rel="noreferrer"
+                  title="my-linkedin"
+                >
                   Victoria Coombs
                 </a>
               </p>

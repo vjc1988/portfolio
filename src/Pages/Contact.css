@@ -1,0 +1,15 @@
+.contact-title {
+  font-size: 64px;
+  text-align: left;
+  margin-bottom: 45px;
+}
+
+.contact-me-identifiers {
+  color: #f8e7e7;
+  font-size: 30px;
+}
+
+.content {
+  padding: 60px 20px;
+  margin: 30px;
+}
