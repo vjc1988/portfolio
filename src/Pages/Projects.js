@@ -16,12 +16,26 @@ export default function Projects() {
             </h1>
             <div className="row">
               <div className="col-md-6 mb-4">
-                <img
-                  src={Travelapp}
-                  class="img-fluid rounded"
-                  alt="Travel app"
-                />
-                <h3 className="text-center">Travel App</h3>
+                <a
+                  href="https://peru-project.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={Travelapp}
+                    class="img-fluid rounded"
+                    alt="Travel app"
+                  />
+                </a>
+                <h3 className="text-center">
+                  <a
+                    href="https://peru-project.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Travel App
+                  </a>
+                </h3>
                 <p className="text-center text-muted">
                   HTML and CSS Application
                 </p>
@@ -33,12 +47,28 @@ export default function Projects() {
                 </p>
               </div>
               <div className="col-md-6 mb-4">
-                <img
-                  src={Weatherapp}
-                  lassName="img-fluid rounded"
-                  alt="Weather App"
-                />
-                <h3 className="text-center">Weather App</h3>
+                {" "}
+                <a
+                  href="https://reactwapphomework.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={Weatherapp}
+                    lassName="img-fluid rounded"
+                    alt="Weather App"
+                  />
+                </a>
+                <h3 className="text-center">
+                  <a
+                    href="https://reactwapphomework.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {" "}
+                    Weather Application
+                  </a>
+                </h3>
                 <p className="text-center text-muted">React.js Application</p>
                 <p className="text-muted text-justified">
                   I built a JavaScript/React.js weather app with SheCodes
