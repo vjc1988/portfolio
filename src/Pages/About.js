@@ -7,7 +7,7 @@ import Footer from "../Components/Footer";
 export default function About() {
   return (
     <div>
-      <div className="content-container container">
+      <div className="content-container-about container">
         <div className="row">
           <div className="col-lg-6">
             <div className="content">
@@ -28,7 +28,7 @@ export default function About() {
                 growth, confident that my unique perspective and dedication will
                 allow me to thrive in my new career path.
               </p>
-              <Link to="/Projects" class="btn btn-branding mt-5">
+              <Link to="/Projects" class="btn btn-branding mt-5 mb-0">
                 See my featured projects
               </Link>
             </div>

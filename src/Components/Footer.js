@@ -34,7 +34,7 @@ export default function Footer() {
           <FontAwesomeIcon icon={faLinkedin} className="social-links" />
         </a>
       </div>
-      <footer>
+      <footer className="text-center">
         This website was coded by Victoria Coombs and is{" "}
         <a
           href="https://github.com/vjc1988/portfolio"
