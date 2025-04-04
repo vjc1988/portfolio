@@ -28,7 +28,7 @@ export default function Projects() {
                     alt="Travel app"
                   />
                 </a>
-                <h3 className="text-center mt-5">
+                <h3 className="text-center mt-5 mb-4">
                   <a
                     href="https://peru-project.netlify.app/"
                     target="_blank"
@@ -37,10 +37,10 @@ export default function Projects() {
                     Travel App
                   </a>
                 </h3>
-                <p className="text-center text-muted">
+                <p className="text-center text-muted project-p mb-4">
                   HTML and CSS Application
                 </p>
-                <p className="text-justified text-muted">
+                <p className="text-justified text-muted project-info">
                   I entered the world of front-end development by gaining some
                   knowledge in HTML, CSS, and JavaScript. I used my knowledge of
                   these languages, along with my new skills in VS Code, to build
@@ -60,7 +60,7 @@ export default function Projects() {
                     alt="Weather App"
                   />
                 </a>
-                <h3 className="text-center mt-5">
+                <h3 className="text-center mt-5 mb-4">
                   <a
                     href="https://reactwapphomework.netlify.app/"
                     target="_blank"
@@ -70,8 +70,10 @@ export default function Projects() {
                     Weather Application
                   </a>
                 </h3>
-                <p className="text-center text-muted">React.js Application</p>
-                <p className="text-muted text-justified">
+                <p className="text-center text-muted project-p mb-4">
+                  React.js Application
+                </p>
+                <p className="text-muted text-justified project-info">
                   I built a JavaScript/React.js weather app with SheCodes
                   Front-End Developer Certified Diploma, an an 8 month coding
                   workshop. Building upon my previously-gained knowledge, I also
@@ -92,7 +94,7 @@ export default function Projects() {
                     alt="Dictionary App"
                   />
                 </a>
-                <h3 className="text-center mt-5">
+                <h3 className="text-center mt-5 mb-4">
                   <a
                     href="https://dictionary-app-vc.netlify.app/"
                     target="_blank"
@@ -101,8 +103,10 @@ export default function Projects() {
                     Dictionary App
                   </a>
                 </h3>
-                <p className="text-center text-muted">React.js Application</p>
-                <p className="text-justified text-muted">
+                <p className="text-center text-muted project-p mb-4">
+                  React.js Application
+                </p>
+                <p className="text-justified text-muted project-info">
                   I immersed myself in React development in SheCodes React. I
                   used my knowledge of this highly-demanded framework to build a
                   working dictionary application incorporating coding best
@@ -121,7 +125,7 @@ export default function Projects() {
                     alt="AI Riddle Generator App"
                   />
                 </a>
-                <h3 className="text-center mt-5">
+                <h3 className="text-center mt-5 mb-4 project-title">
                   <a
                     href="https://ai-riddle-generator.netlify.app/"
                     target="_blank"
@@ -130,8 +134,10 @@ export default function Projects() {
                     Riddle Generator
                   </a>
                 </h3>
-                <p className="text-center text-muted">AI Integration</p>
-                <p className="text-justified text-muted">
+                <p className="text-center text-muted project-p mb-4">
+                  AI Integration
+                </p>
+                <p className="text-justified text-muted project-info">
                   I created an Animal AI-generated riddle generator using a
                   combination of AI integration, HTML, JavaScript, and CSS. The
                   AI component, generates riddles based on user-selected animal.

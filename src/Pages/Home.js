@@ -22,7 +22,7 @@ export default function Home() {
         </Link>
       </header>
       <div>
-        <h2 className="featured-projects">Featured Projects</h2>
+        <h2 className="featured-projects mb-5">Featured Projects</h2>
         <div className="container">
           <div className="row">
             <div className="col-sm-6">
@@ -33,7 +33,7 @@ export default function Home() {
               />
             </div>
             <div className="col-sm-6">
-              <h2 className="index-page-titles">Travel App</h2>
+              <h2 className="index-page-titles mb-4">Travel App</h2>
               <p className="index-page-p">
                 I entered the world of front-end development by gaining some
                 knowledge in HTML, CSS, and JavaScript. I used my knowledge of
@@ -53,7 +53,7 @@ export default function Home() {
           </div>
           <div className="row mt-5">
             <div className="col-sm-6">
-              <h2 className="index-page-titles">Weather App</h2>
+              <h2 className="index-page-titles mb-4">Weather App</h2>
               <p className="index-page-p">
                 I built a JavaScript/React.js weather app with SheCodes
                 Front-End Developer Certified Diploma, an an 8 month coding
@@ -89,7 +89,7 @@ export default function Home() {
               />
             </div>
             <div className="col-sm-6">
-              <h2 className="index-page-titles">Dictionary App</h2>
+              <h2 className="index-page-titles mb-4">Dictionary App</h2>
               <p className="index-page-p">
                 I immersed myself in React development in SheCodes React. I used
                 my knowledge of this highly-demanded framework to build a
