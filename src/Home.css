@@ -14,15 +14,12 @@ h2 {
 }
 
 .developer-statement {
+  font-size: 20px;
   text-align: center;
   padding: 40px;
 }
 
-.featured-projects {
-  margin-bottom: 50px;
-}
-
-p {
+.index-page-p {
   padding: 20px;
   font-size: 18px;
   line-height: 1.5;
@@ -90,4 +87,34 @@ p {
   text-decoration: none;
   padding: 15px 30px;
   transition: ease-in-out 0.3s;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 40px;
+  }
+
+  .developer-statement {
+    font-size: 15px;
+    line-height: 2;
+  }
+
+  .index-page-titles {
+    text-align: center;
+  }
+
+  .index-page-p {
+    text-align: center;
+  }
+  .content-container {
+    text-align: center;
+    padding: 0px;
+  }
+  .content {
+    padding: 0;
+  }
 }
