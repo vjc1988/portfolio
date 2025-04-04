@@ -81,12 +81,26 @@ export default function Projects() {
                 </p>
               </div>
               <div className="col-md-6 mb-4">
-                <img
-                  src={Dictionaryapp}
-                  className="img-fluid rounded"
-                  alt="Dictionary App"
-                />
-                <h3 className="text-center mt-5">Dictionary App</h3>
+                <a
+                  href="https://dictionary-app-vc.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={Dictionaryapp}
+                    className="img-fluid rounded"
+                    alt="Dictionary App"
+                  />
+                </a>
+                <h3 className="text-center mt-5">
+                  <a
+                    href="https://dictionary-app-vc.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Dictionary App
+                  </a>
+                </h3>
                 <p className="text-center text-muted">React.js Application</p>
                 <p className="text-justified text-muted">
                   I immersed myself in React development in SheCodes React. I
@@ -96,15 +110,27 @@ export default function Projects() {
                 </p>
               </div>
               <div className="col-md-6 mb-4">
-                <img
-                  src={AIapp}
-                  className="img-fluid rounded"
-                  alt="AI Riddle Generator App"
-                />
-                <h3 className="text-center mt-5">Riddle Generator</h3>
-                <p className="text-center text-muted">
-                  AI Integrated HTML and CSS
-                </p>
+                <a
+                  href="https://ai-riddle-generator.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={AIapp}
+                    className="img-fluid rounded"
+                    alt="AI Riddle Generator App"
+                  />
+                </a>
+                <h3 className="text-center mt-5">
+                  <a
+                    href="https://ai-riddle-generator.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Riddle Generator
+                  </a>
+                </h3>
+                <p className="text-center text-muted">AI Integration</p>
                 <p className="text-justified text-muted">
                   I created an Animal AI-generated riddle generator using a
                   combination of AI integration, HTML, JavaScript, and CSS. The
