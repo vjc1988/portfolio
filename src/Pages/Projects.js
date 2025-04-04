@@ -3,6 +3,7 @@ import "./Projects.css";
 import Dictionaryapp from "../Images/Dictionaryapp.png";
 import Travelapp from "../Images/Travelapp.png";
 import Weatherapp from "../Images/Weatherapp.png";
+import AIapp from "../Images/AIapp.png";
 import Footer from "../Components/Footer";
 
 export default function Projects() {
@@ -23,11 +24,11 @@ export default function Projects() {
                 >
                   <img
                     src={Travelapp}
-                    class="img-fluid rounded"
+                    className="img-fluid rounded"
                     alt="Travel app"
                   />
                 </a>
-                <h3 className="text-center">
+                <h3 className="text-center mt-5">
                   <a
                     href="https://peru-project.netlify.app/"
                     target="_blank"
@@ -55,11 +56,11 @@ export default function Projects() {
                 >
                   <img
                     src={Weatherapp}
-                    lassName="img-fluid rounded"
+                    className="img-fluid rounded"
                     alt="Weather App"
                   />
                 </a>
-                <h3 className="text-center">
+                <h3 className="text-center mt-5">
                   <a
                     href="https://reactwapphomework.netlify.app/"
                     target="_blank"
@@ -85,7 +86,7 @@ export default function Projects() {
                   className="img-fluid rounded"
                   alt="Dictionary App"
                 />
-                <h3 className="text-center">Dictionary App</h3>
+                <h3 className="text-center mt-5">Dictionary App</h3>
                 <p className="text-center text-muted">React.js Application</p>
                 <p className="text-justified text-muted">
                   I immersed myself in React development in SheCodes React. I
@@ -96,15 +97,29 @@ export default function Projects() {
               </div>
               <div className="col-md-6 mb-4">
                 <img
-                  src=""
+                  src={AIapp}
                   className="img-fluid rounded"
                   alt="AI Riddle Generator App"
                 />
-                <h3 className="text-center">Riddle Generator</h3>
+                <h3 className="text-center mt-5">Riddle Generator</h3>
                 <p className="text-center text-muted">
                   AI Integrated HTML and CSS
                 </p>
-                <p className="text-justified text-muted">World Clock</p>
+                <p className="text-justified text-muted">
+                  I created an Animal AI-generated riddle generator using a
+                  combination of AI integration, HTML, JavaScript, and CSS. The
+                  AI component, generates riddles based on user-selected animal.
+                  I structured the webpage with HTML, allowing users to choose
+                  their preferences through interactive input fields. JavaScript
+                  acts as the backbone of the project, managing user
+                  interactions and making real-time requests to the AI to fetch
+                  new riddles based on those inputs. To make the interface clean
+                  and visually engaging, I used CSS for styling, ensuring it was
+                  both aesthetically pleasing and responsive across devices.
+                  This project offers users an interactive and fun experience by
+                  dynamically generating unique riddles tailored to their
+                  preferences.
+                </p>
               </div>
             </div>
           </div>

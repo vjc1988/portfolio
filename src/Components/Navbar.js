@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 import VictoriaCoombs1 from "../Images/victoria-coombs-1.jpg";
 
@@ -16,22 +17,22 @@ export default function Navbar() {
         </Link>
         <ul>
           <li>
-            <Link to="/" className="active text-muted nav-titles">
+            <NavLink to="/" className="text-muted nav-title">
               Home
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="./About" className="text-muted nav-titles">
+            <Link to="./About" className="text-muted nav-title">
               About
             </Link>
           </li>
           <li>
-            <Link to="./Projects" className="text-muted nav-titles">
+            <Link to="./Projects" className="text-muted nav-title">
               Projects
             </Link>
           </li>
           <li>
-            <Link to="./Contact" className="text-muted nav-titles">
+            <Link to="./Contact" className="text-muted nav-title">
               Contact
             </Link>
           </li>

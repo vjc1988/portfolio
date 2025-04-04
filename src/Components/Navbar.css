@@ -14,14 +14,15 @@ nav li {
   margin-left: 30px;
 }
 
-nav a {
+.nav-title {
   text-decoration: none;
   color: #a070a1;
   transition: all 100ms ease-in-out;
 }
 
-nav a:hover,
+nav .nav-title:hover,
 nav li.active a {
+  color: #a070a1;
 }
 
 .title {
