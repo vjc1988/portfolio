@@ -12,7 +12,9 @@ export default function Home() {
       <header className="Container">
         <h2 className="title">👋🏼 Hello, I'm</h2>
         <h1 className="hero-name">Victoria Coombs</h1>
-        <h2>Junior Front-End Developer based in Lancashire, United Kingdom</h2>
+        <h2 className="job-description">
+          Junior Front-End Developer based in Lancashire, United Kingdom
+        </h2>
         <p className="developer-statement">
           A passionate front-end developer dedicated to creating seamless and
           interactive web experiences
@@ -28,7 +30,7 @@ export default function Home() {
             <div className="col-sm-6">
               <img
                 src={Travelapp}
-                className="img-fluid rounded project-image"
+                className="img-fluid rounded d-none d-lg-block project-image"
                 alt="travel project"
               />
             </div>
@@ -64,7 +66,7 @@ export default function Home() {
               </p>
               <a
                 href="https://reactwapphomework.netlify.app/"
-                className=" btn home-links"
+                className="btn home-links"
                 title="launch weather app"
                 target="_blank"
                 rel="noreferrer"
@@ -75,7 +77,7 @@ export default function Home() {
             <div className="col-sm-6">
               <img
                 src={Weatherapp}
-                className="img-fluid rounded project-image"
+                className="img-fluid rounded d-none d-lg-block project-image"
                 alt="weather project"
               />
             </div>
@@ -84,7 +86,7 @@ export default function Home() {
             <div className="col-sm-6">
               <img
                 src={Dictionaryapp}
-                className="img-fluid rounded project-image"
+                className="img-fluid rounded d-none d-lg-block project-image"
                 alt="dictionary project"
               />
             </div>
