@@ -11,7 +11,7 @@ export default function Home() {
     <div>
       <header className="Container">
         <h2 className="title">👋🏼 Hello, I'm</h2>
-        <h1>Victoria Coombs</h1>
+        <h1 className="hero-name">Victoria Coombs</h1>
         <h2>Junior Front-End Developer based in Lancashire, United Kingdom</h2>
         <p className="developer-statement">
           A passionate front-end developer dedicated to creating seamless and

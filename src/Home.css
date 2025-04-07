@@ -94,8 +94,8 @@ p {
 }
 
 @media (max-width: 960px) {
-  h1 {
-    font-size: 44px;
+  .hero-name {
+    font-size: 70px;
     line-height: 1.5;
   }
   h2 {
@@ -114,6 +114,7 @@ p {
   .index-page-p {
     text-align: center;
   }
+
   .content-container {
     text-align: center;
     padding: 0px;
