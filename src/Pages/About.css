@@ -28,3 +28,25 @@
   padding: 15px 30px;
   margin-bottom: 70px;
 }
+
+@media (max-width: 960px) {
+  .about-me-hero {
+    font-size: 70px;
+  }
+  .about-me-picture-content {
+    margin-top: -50px;
+  }
+  .about-me-image {
+    margin-bottom: 40px;
+  }
+
+  .about-me-paragraph {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .featured-projects-btn {
+    display: block;
+    margin: 0 auto;
+  }
+}

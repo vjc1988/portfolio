@@ -11,7 +11,7 @@ export default function About() {
         <div className="row">
           <div className="col-lg-6">
             <div className="content">
-              <h1>Hi! I'm Victoria Coombs</h1>
+              <h1 className="about-me-hero">Hi! I'm Victoria Coombs</h1>
               <h2 className="about-me-title mt-5 mb-4">
                 A front-end developer from Lancashire, United Kingdom
               </h2>
@@ -28,12 +28,15 @@ export default function About() {
                 growth, confident that my unique perspective and dedication will
                 allow me to thrive in my new career path.
               </p>
-              <Link to="/Projects" class="btn btn-branding mt-5 mb-0">
+              <Link
+                to="/Projects"
+                class="btn btn-branding mt-5 mb-0 featured-projects-btn"
+              >
                 See my featured projects
               </Link>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 about-me-picture-content">
             <img
               src={VictoriaCoombs1}
               className="about-me-image img-fluid mt-5"
