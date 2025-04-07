@@ -12,7 +12,7 @@ export default function Projects() {
       <div className="content-container container">
         <div className="row">
           <div className="content">
-            <h1 className="mb-5 mt-1 text-start">
+            <h1 className="mb-5 mt-1 text-start project-title">
               Take a look at my featured projects!
             </h1>
             <div className="row">

@@ -19,3 +19,12 @@ a {
 .project-info {
   line-height: 1.9;
 }
+
+@media (max-width: 960px) {
+  .project-title {
+    font-size: 10px;
+  }
+  h3 {
+    font-size: 40px;
+  }
+}

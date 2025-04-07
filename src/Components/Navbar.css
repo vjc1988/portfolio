@@ -34,3 +34,9 @@ nav li.active a {
   height: 60px;
   margin-left: 15px;
 }
+
+@media (max-width: 960px) {
+  nav {
+    font-size: 14px;
+  }
+}
