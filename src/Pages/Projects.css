@@ -3,6 +3,10 @@
   margin: 30px;
 }
 
+.project-title {
+  text-align: left;
+}
+
 img {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
@@ -22,8 +26,9 @@ a {
 
 @media (max-width: 960px) {
   .project-title {
-    font-size: 10px;
+    text-align: center;
   }
+
   h3 {
     font-size: 40px;
   }
