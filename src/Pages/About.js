@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./About.css";
-import VictoriaCoombs1 from "../Images/victoria-coombs-1.jpg";
+import VictoriaCoombs from "../Images/victoria-coombs.png";
 import Footer from "../Components/Footer";
 
 export default function About() {
@@ -38,7 +38,7 @@ export default function About() {
           </div>
           <div className="col-lg-6 about-me-picture-content">
             <img
-              src={VictoriaCoombs1}
+              src={VictoriaCoombs}
               className="about-me-image img-fluid mt-5"
               alt="about-me-image"
             />

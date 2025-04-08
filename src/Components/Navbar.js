@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
-import VictoriaCoombs1 from "../Images/victoria-coombs-1.jpg";
+import VictoriaCoombs from "../Images/victoria-coombs.png";
 
 export default function Navbar() {
   return (
@@ -10,8 +10,8 @@ export default function Navbar() {
       <nav className="d-flex justify-content-between">
         <Link to="/">
           <img
-            src={VictoriaCoombs1}
-            alt="victoria-coombs-1"
+            src={VictoriaCoombs}
+            alt="victoria-coombs"
             className="logo rounded-circle navImage"
           />
         </Link>
