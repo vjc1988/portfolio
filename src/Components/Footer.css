@@ -6,18 +6,20 @@ footer {
 h3 {
   font-size: 50px;
   color: azure;
+  padding: 20px 0;
 }
 
 .contact-box-index {
   background-color: #a070a1;
-  padding: 30px 120px;
+  padding: 20px 120px;
   margin: 60px;
   border-radius: 10px;
 }
 
 .work-together-title {
-  color: azure;
   font-size: 25px;
+  color: azure;
+  margin-top: -15px;
 }
 
 .home-email {

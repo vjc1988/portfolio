@@ -14,7 +14,7 @@ export default function Footer() {
           <p className="work-together-title">Let's work together!</p>
         </div>
         <div>
-          <Link to="/Contact" className="btn btn-branding mt-3">
+          <Link to="/Contact" className="btn btn-branding mt-5">
             Contact Me
           </Link>
         </div>
