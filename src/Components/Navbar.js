@@ -8,33 +8,33 @@ export default function Navbar() {
   return (
     <div>
       <nav className="d-flex justify-content-between">
-        <Link to="/">
+        <NavLink to="/">
           <img
             src={VictoriaCoombs}
             alt="victoria-coombs"
             className="logo rounded-circle navImage"
           />
-        </Link>
+        </NavLink>
         <ul>
           <li>
-            <NavLink to="/" className="text-muted nav-title">
+            <NavLink to="/" activeclassName="text-muted nav-title">
               Home
             </NavLink>
           </li>
           <li>
-            <Link to="./About" className="text-muted nav-title">
+            <NavLink to="./About" className="text-muted nav-title">
               About
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="./Projects" className="text-muted nav-title">
+            <NavLink to="./Projects" className="text-muted nav-title">
               Projects
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="./Contact" className="text-muted nav-title">
+            <NavLink to="./Contact" className="text-muted nav-title">
               Contact
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </nav>
