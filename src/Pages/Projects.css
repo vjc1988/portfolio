@@ -32,4 +32,13 @@ a {
   h3 {
     font-size: 40px;
   }
+
+  .content-container {
+    text-align: center;
+    padding: 0px;
+  }
+
+  .content {
+    padding: 0;
+  }
 }

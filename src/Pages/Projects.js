@@ -67,7 +67,7 @@ export default function Projects() {
                     rel="noreferrer"
                   >
                     {" "}
-                    Weather Application
+                    Weather App
                   </a>
                 </h3>
                 <p className="text-center text-muted project-p mb-4">

@@ -8,13 +8,13 @@ export default function Navbar() {
   return (
     <div>
       <nav className="d-flex justify-content-between">
-        <NavLink to="/">
+        <Link to="/">
           <img
             src={VictoriaCoombs}
             alt="victoria-coombs"
             className="logo rounded-circle navImage"
           />
-        </NavLink>
+        </Link>
         <ul>
           <li>
             <NavLink to="/" activeclassName="text-muted nav-title">
