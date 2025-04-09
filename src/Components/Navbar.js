@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
-import VictoriaCoombs from "../Images/victoria-coombs.png";
+import VictoriaCoombs from "../Images/vcLogo.png";
 
 export default function Navbar() {
   return (
