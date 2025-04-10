@@ -17,22 +17,42 @@ export default function Navbar() {
         </Link>
         <ul>
           <li>
-            <NavLink to="/" activeclassName="text-muted nav-title">
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive ? "nav-title active" : "nav-title text-muted"
+              }
+            >
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink to="./About" className="text-muted nav-title">
+            <NavLink
+              to="/About"
+              className={({ isActive }) =>
+                isActive ? "nav-title active" : "nav-title text-muted"
+              }
+            >
               About
             </NavLink>
           </li>
           <li>
-            <NavLink to="./Projects" className="text-muted nav-title">
+            <NavLink
+              to="/Projects"
+              className={({ isActive }) =>
+                isActive ? "nav-title active" : "nav-title text-muted"
+              }
+            >
               Projects
             </NavLink>
           </li>
           <li>
-            <NavLink to="./Contact" className="text-muted nav-title">
+            <NavLink
+              to="/Contact"
+              className={({ isActive }) =>
+                isActive ? "nav-title active" : "nav-title text-muted"
+              }
+            >
               Contact
             </NavLink>
           </li>

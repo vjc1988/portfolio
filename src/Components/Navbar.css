@@ -14,7 +14,7 @@ nav li {
   margin-left: 30px;
 }
 
-nav a.active {
+.nav-title a.active {
   color: #a070a1;
 }
 
