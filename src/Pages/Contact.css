@@ -5,7 +5,7 @@
 }
 
 .contact-me-identifiers {
-  color: #f8e7e7;
+  color: var(--third-color);
   font-size: 30px;
 }
 

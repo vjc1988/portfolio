@@ -22,7 +22,7 @@
 .btn-branding {
   background-color: azure;
   border-radius: 4px;
-  color: #a070a1;
+  color: var(--branding-color);
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 1px;

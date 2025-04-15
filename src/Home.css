@@ -1,7 +1,7 @@
 h1,
 h2 {
   text-align: center;
-  color: #a070a1;
+  color: var(--branding-color);
 }
 
 h1 {
@@ -37,7 +37,7 @@ h2 {
 
 a {
   text-align: center;
-  color: #a070a1;
+  color: var(--branding-color);
 }
 
 p {
@@ -46,7 +46,7 @@ p {
 
 .Container {
   padding: 90px;
-  background-color: #f8e7e7;
+  background-color: var(--third-color);
   text-align: center;
 }
 
@@ -58,12 +58,12 @@ p {
   text-transform: uppercase;
   padding: 16px 32px;
   margin-top: 32px;
-  color: #a070a1;
+  color: var(--branding-color);
   transition: ease-in-out 0.3s;
 }
 
 .contact-btn:hover {
-  background-color: #a070a1;
+  background-color: var(--branding-color);
   color: azure;
 }
 
@@ -75,7 +75,7 @@ p {
 .btn-branding {
   background-color: azure;
   border-radius: 4px;
-  color: #a070a1;
+  color: var(--branding-color);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
@@ -83,9 +83,9 @@ p {
 
 .home-links {
   margin-top: 20px;
-  border: 1px solid #a070a1;
+  border: 1px solid var(--branding-color);
   border-radius: 4px;
-  color: #a070a1;
+  color: var(--branding-color);
   font-size: 18px;
   line-height: 27px;
   text-decoration: none;

@@ -15,7 +15,7 @@ nav li {
 }
 
 .nav-title a.active {
-  color: #a070a1;
+  color: var(--branding-color);
 }
 
 .title {

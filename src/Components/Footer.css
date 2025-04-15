@@ -10,7 +10,7 @@ h3 {
 }
 
 .contact-box-index {
-  background-color: #a070a1;
+  background-color: var(--branding-color);
   padding: 20px 120px;
   margin: 60px;
   border-radius: 10px;
@@ -34,14 +34,14 @@ h3 {
 .btn-branding {
   background-color: azure;
   border-radius: 4px;
-  color: #a070a1;
+  color: var(--branding-color);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
 }
 
 .social-links {
-  color: #a070a1;
+  color: var(--branding-color);
   font-size: 50px;
   padding: 20px;
   margin-top: 30px;
