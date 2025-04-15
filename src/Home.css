@@ -95,6 +95,7 @@ p {
 
 @media (max-width: 960px) {
   .hero-name {
+    text-align: center;
     font-size: 75px;
     line-height: 1.2;
   }
@@ -109,11 +110,11 @@ p {
   }
 
   .job-description {
-    font-size: 35px;
+    font-size: 25px;
   }
 
   .developer-statement {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 2;
   }
 
