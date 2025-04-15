@@ -25,9 +25,11 @@ a {
 }
 
 @media (max-width: 960px) {
-  .project-title {
+  .content-container h1 {
+    padding: 45px;
     text-align: center;
-    font-size: 20px;
+    font-size: 45px;
+    line-height: 1.5;
   }
 
   .content {
