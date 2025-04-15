@@ -95,7 +95,6 @@ p {
 
 @media (max-width: 960px) {
   .hero-name {
-    text-align: center;
     font-size: 75px;
     line-height: 1.2;
   }
