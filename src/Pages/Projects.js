@@ -24,7 +24,7 @@ export default function Projects() {
                 >
                   <img
                     src={Travelapp}
-                    className="img-fluid rounded"
+                    className="img-fluid rounded project-image"
                     alt="Travel app"
                   />
                 </a>
@@ -56,7 +56,7 @@ export default function Projects() {
                 >
                   <img
                     src={Weatherapp}
-                    className="img-fluid rounded"
+                    className="img-fluid rounded project-image"
                     alt="Weather App"
                   />
                 </a>
@@ -90,7 +90,7 @@ export default function Projects() {
                 >
                   <img
                     src={Dictionaryapp}
-                    className="img-fluid rounded"
+                    className="img-fluid rounded project-image"
                     alt="Dictionary App"
                   />
                 </a>
@@ -121,7 +121,7 @@ export default function Projects() {
                 >
                   <img
                     src={AIapp}
-                    className="img-fluid rounded"
+                    className="img-fluid rounded project-image"
                     alt="AI Riddle Generator App"
                   />
                 </a>

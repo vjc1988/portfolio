@@ -28,24 +28,26 @@ a {
   .content-container h1 {
     padding: 45px;
     text-align: center;
-    font-size: 45px;
+    font-size: 55px;
     line-height: 1.5;
   }
 
   .content {
     margin: 0;
+    padding: 0;
+  }
+
+  .project-image {
+    max-width: 400px;
+  }
+
+  .project-info {
+    margin: 20px;
+    padding: 20px;
+    font-size: 14px;
   }
 
   h3 {
     font-size: 40px;
-  }
-
-  .content-container {
-    text-align: center;
-    padding: 0px;
-  }
-
-  .content {
-    padding: 0;
   }
 }
