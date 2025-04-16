@@ -97,6 +97,7 @@ p {
   .hero-name {
     font-size: 75px;
     line-height: 1.2;
+    text-align: center;
   }
 
   .title {
