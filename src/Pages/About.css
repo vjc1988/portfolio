@@ -20,7 +20,7 @@
 }
 
 .btn-branding {
-  background-color: azure;
+  background-color: var(--fourth-color);
   border-radius: 4px;
   color: var(--branding-color);
   font-size: 18px;

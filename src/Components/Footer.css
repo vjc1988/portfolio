@@ -5,7 +5,7 @@ footer {
 
 h3 {
   font-size: 50px;
-  color: azure;
+  color: var(--fourth-color);
   padding: 20px 0;
 }
 
@@ -18,7 +18,7 @@ h3 {
 
 .work-together-title {
   font-size: 25px;
-  color: azure;
+  color: var(--fourth-color);
   margin-top: -15px;
 }
 
@@ -32,7 +32,7 @@ h3 {
 }
 
 .btn-branding {
-  background-color: azure;
+  background-color: var(--fourth-color);
   border-radius: 4px;
   color: var(--branding-color);
   font-size: 18px;
