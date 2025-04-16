@@ -27,12 +27,23 @@ export default function About() {
               growth, confident that my unique perspective and dedication will
               allow me to thrive in my new career path.
             </p>
-            <Link
-              to="/Projects"
-              class="btn btn-branding mt-5 mb-0 featured-projects-btn"
-            >
-              See my featured projects
-            </Link>
+            <div className="about-btns-section">
+              <Link
+                to="/Projects"
+                className="btn btn-branding mt-5 mb-0 featured-projects-btn"
+              >
+                See my featured projects
+              </Link>
+              <br />
+              <a
+                href="https://www.dropbox.com/scl/fi/s6v0y8kczltm3p7vcilrt/Resume-VC.pdf?rlkey=o0fga1v54jc3ljbdmhoacvx79&st=c0ze1ref&dl=0"
+                target="_blank"
+                rel="noreferrer"
+                className="btn btn-branding mt-5 mb-0 resume-btn"
+              >
+                My Resume
+              </a>
+            </div>
           </div>
         </div>
         <div className="col-lg-6 about-me-picture-content">

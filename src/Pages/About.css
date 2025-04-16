@@ -39,18 +39,23 @@
     font-size: 70px;
   }
   .about-me-picture-content {
-    margin-top: -30px;
-  }
-  .about-me-image {
+    margin-top: 10px;
     margin-bottom: 40px;
   }
 
   .about-me-paragraph {
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 65px;
   }
 
   .featured-projects-btn {
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .resume-btn {
     width: fit-content;
     display: block;
     margin: 0 auto;
